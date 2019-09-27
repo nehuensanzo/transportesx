@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Etiquetas Formulario</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<h2>Completa el siguiente formulario</h2>
+	<form action="" method="" accept-charset="utf-8">
+		<p>
+			<label for="nom">Nombre</label>
+			<input type="" name="" id="nom"/> <!--completamos el mismo for con el mismo id para tocar la palabra y que aparezca rellenar la caja automaticamente-->
+		</p>
+		<p>
+			<input type="" name="" placeholder="Usuario" />
+		</p>
+		<p>
+			<label for="">Apellido</label>
+			<input type="text" name="" placeholder="Escriba su apellido"/>
+		</p>
+		<p>
+			<label for="">Contraseña</label>
+			<input type="password" name=""/>
+		</p>
+		<label for="">Sexo</label>
+		<p>
+		<ul>
+			<li>
+				<input type="radio" name="sexo" value="mujer" />
+				<label for="">Mujer</label>
+			</li>
+			<li>
+				<input type="radio" name="sexo" value="Hombre" />
+				<label for="">Hombre</label>        <!-- poner mismo valor  sexo" para que se pueda seleccionar solo uno de los casilleros-->
+			</li>
+		</ul>
+		</p>
+		<p>
+			<label for="">Hobbies</label>
+			
+		    <ul>
+		    	<li>
+		    		<input type="checkbox" name="habbies[]" value="bailar"/>
+		    		<label for="">Bailar</label>
+		    	</li>
+		    	<li>
+		    		<input type="checkbox" name="habbies[]" value="cantar"/>
+		    		<label for="">Cantar</label>
+		    	</li>
+		    	<li>
+		    		<input type="checkbox" name="habbies[]" value="jugar"/>
+		    		<label for="">Jugar</label>
+		    	</li>
+		    	<li>
+		    		<input type="checkbox" name="habbies[]" value="nadar"/>
+		    		<label for="">Nadar</label>
+		    	</li>
+		    </ul>
+		</p>
+		<p>
+			<label for="">Titulo</label>
+			<select name=""/>
+				<option value="seleccionar">Seleccionar</option>
+				<option value="primario">Primario</option>
+				<option value="secundario">Secundario</option>
+				<option value="terciario">Terciario</option>
+				<option value="universitario">Universitario</option>
+			</select>
+		</p>
+		<p>
+			<label>Comentarios</label>
+			<textarea name="" rows="10"></textarea> <!--usar vertical align // no hacer espacios entre la apertura de textarea y el cierre de etiqueta porque genera espacios al iniciar-->
+			
+		</p>
+		<p>
+			<input type="submit" name="enviar" />
+			<input type="reset" name="borrar" />
+			<!--no va name en estos input-->
+
+		</p>
+
+	</form>
+	
+</body>
+</html>

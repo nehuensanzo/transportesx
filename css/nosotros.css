@@ -1,0 +1,58 @@
+/*inicio nosotros*/
+.historia p{
+	font-size: 0.8em;
+	margin-bottom: 1em;
+}
+.staff{
+	margin-top: 1.5em;
+}
+.personas{
+	overflow: hidden;
+}
+.persona{
+	width: 18%;
+	border: 1px solid #ddd;
+	border-radius: 0.25em;
+	float: left;
+	margin-left: 2.25%;
+	box-sizing: border-box;
+/*	background-color: red;*/
+
+}
+.persona figure{
+	margin: 0.8em 0 1em;
+	text-align: center;
+}
+.persona figure img{
+	border-radius: 50%;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.persona h5,
+.persona h6{
+	text-align: center;
+	color: #2e64a1;
+	font-weight: normal;
+	margin: 0;
+}
+.persona h5{
+	font-size: 0.9em;
+}
+.persona h6{
+	font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
+.persona p{
+	font-size: 0.7em;
+	color: #444;
+	margin: 0 1em 1em;
+	text-align: center;
+}
+.persona:first-child{
+	margin-left: 0;
+}
+/*es sobre .persona 
+tiene que tener una caja grande que lo contenga en este caso .personas
+puede ser :last-child o :first-child;*/
+/*fin nosotros*/

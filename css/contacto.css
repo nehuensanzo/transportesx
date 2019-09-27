@@ -1,0 +1,52 @@
+
+
+/*inicio contacto*/
+.columna{
+	width: 50%;
+	padding: 0 0.625em;
+	box-sizing: border-box;/*ajusta las cajas*/
+}
+
+.columna.left{/*elemento que tiene dos clases, van pegadas*/
+	border-right: 2px solid #ddd;
+}
+.columna.right p{
+	font-size: 0.8em;
+}
+.columna.right ul li{
+	font-size: 0.8em;
+}
+
+.formulario1 label{
+	width: 22%;
+	vertical-align: top;
+	display: inline-block;/*o block para poner una abjo del otro pero sin vertical align*/
+}
+.formulario1 input,
+.formulario1 textarea{
+	background-color: #ddd;
+	border-radius: 5px;
+	border: 1px solid #999;
+	font-size: 0.8em;
+	padding: 0.4em 0.6em;
+	width: 95%;
+
+}
+.formulario1 textarea{
+	height: 10em;
+	resize: none;/*poner fijo el cuadro para escribir*/
+}
+.formulario1 input[type="submit"]{
+	width: auto;/*reseteo de tamaño porque deberia respetar el 95%*/
+	background-color: #6da9ed;
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	color: white;
+	font-size: 1em;
+	text-align: center;
+}
+
+.formulario1 .moveralcentro{
+	text-align: center;/*puede mover imagenes, texto, input*/
+}
+
+/*fin contacto*/
